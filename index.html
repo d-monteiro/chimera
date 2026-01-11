@@ -1,25 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chimera</title>
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-        img.bg {
-            position: fixed;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpeg" href="chimera.jpeg" />
+  <title>Chimera</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #0e0e0e;
+      color: #eaeaea;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 1rem;
+      opacity: 0.7;
+      margin: 0.3rem 0;
+    }
+  </style>
 </head>
 <body>
-    <img src="chimera.jpeg" alt="Chimera" class="bg">
+  <div class="container">
+    <div>
+      <h1>CHIMERA</h1>
+      <p>Building physical intelligence.</p>
+      <p>Est. 2026</p>
+    </div>
+  </div>
 </body>
 </html>
